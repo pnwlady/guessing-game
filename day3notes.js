@@ -1,5 +1,5 @@
 
-/*var john = 3; //declared and assigned
+var john = 3; //declared and assigned
 
 or //declaring 3 different ways
 
