@@ -1,0 +1,20 @@
+*	{
+	background-color: blue;
+}
+
+.hidden	{
+	display: none;
+}
+
+h3	{
+	color: magenta;
+}
+
+.incorrect	{
+	color: red;
+}
+
+.correct	{
+	color: green;
+}
+
