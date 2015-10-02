@@ -1,3 +1,9 @@
+
+
+var question = ["Was Heidi Born in Alaska", "Did Heidi vote for Bush?", "Does Heidi have a rabbit?"];
+var answer = ['yes', 'y', 'no', 'n']
+
+
 var answersCorrect = 0;
 
 var one = document.getElementById("one");
@@ -7,10 +13,10 @@ var three = document.getElementById("three");
 
 
 function ques1() {
-  var question1 = prompt('Did Heidi grow up in Alaska?');
+  var question1 = prompt(question[0]);
   var question1 = question1.toLowerCase();
   console.log('Question 1 response: ' + question1);
-  if (question1 === 'no' || question1 === 'n') {
+  if (question1 === answer[2] || question1 === answer[3]) {
     one.innerHTML = 'You have chosen wisely.';
     answersCorrect++;
     console.log(answersCorrect);
@@ -21,10 +27,10 @@ function ques1() {
  ques1();
 
 function ques2() {
-  var question2 = prompt('Did Heidi vote for Bush?');
+  var question2 = prompt(question[1]);
   var question2 = question2.toLowerCase();
   console.log('Question 2 response: ' + question2);
-  if (question2 === 'no' || question2 === 'n') {
+  if (question2 === answer[2] || question2 === answer[3]) {
     two.innerHTML = 'You\'re smarter than the average Bush.';
     answersCorrect++;
     console.log(answersCorrect);
@@ -36,10 +42,10 @@ function ques2() {
 ques2();
 
 function ques3() {
-  var question3 = prompt('Does Heidi have a rabbit?');
+  var question3 = prompt(question[2]);
   var question3 = question3.toLowerCase();
   console.log('Question 3 response: ' + question3);
-  if (question3 === 'no' || question3 === 'no') {
+  if (question3 === answer[2] || question3 === answer[3]) {
     three.innerHTML = 'You\'re right, she had one named Randall.';
     answersCorrect++;
     console.log(answersCorrect);
