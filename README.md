@@ -12,3 +12,6 @@ Driver Jared Stratton
 Navigator Heidi Laursen
 We both worked on this code.
 
+October 3 notes
+Heidi Laursen - updated background color and game title
+

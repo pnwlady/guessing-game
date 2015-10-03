@@ -28,7 +28,7 @@ function ques1() {
   } else {
     one.className = 'incorrect';
     one.innerHTML = 'She wishes.';
-  }  
+  }
 }
  ques1();
 
@@ -45,7 +45,7 @@ function ques2() {
   } else {
     two.className = 'incorrect';
     two.innerHTML = 'Ouch!';
-  }  
+  }
 }
 
 window.setTimeout(ques2, 1000);
@@ -63,7 +63,7 @@ function ques3() {
   } else {
     three.className = 'incorrect';
     three.innerHTML = 'Not right now... but it\'s only a matter of time.';
-    }  
+    }
   }
 
 window.setTimeout(ques3, 1000);
